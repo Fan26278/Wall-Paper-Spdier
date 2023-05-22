@@ -10,7 +10,7 @@ def savePhotos(img_url, os_path):
 
 # 更改start_page 和end_page 可以控制爬取页面范围
 start_page = 1
-end_page = 2
+end_page = 10
 
 for page in range(start_page,end_page):
     print("---------------正在解析第%d页----------------"%page)
